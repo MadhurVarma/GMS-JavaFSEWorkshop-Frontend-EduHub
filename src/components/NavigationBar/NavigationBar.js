@@ -12,6 +12,7 @@ export const NavigationBar = () => {
         <Nav className="me-auto">
           <Nav.Link as={Link} to="/">Home</Nav.Link>
           <Nav.Link as={Link} to="/demo">Demo</Nav.Link>
+          <Nav.Link as={Link} to="/mentor">Mentor</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
